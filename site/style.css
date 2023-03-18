@@ -1,0 +1,85 @@
+header {
+    padding: 0 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-family: cursive;
+    font-size: 15px;
+
+
+}
+
+header ul {
+    list-style: none;
+
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    color: black;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+ul :hover {
+    background-color: rgb(233, 156, 68);
+    padding: 10px;
+}
+
+section.header {
+    padding: 20px;
+    border-top: solid 1px rgb(201, 187, 187);
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 50px;
+
+
+
+}
+
+body {
+    margin: 0;
+}
+
+a :active {
+    transform: scale(1);
+}
+li.velo{
+    display: inline-block;
+    padding:10px 10px 60px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    background-color: rgb(235, 226, 226);
+    margin: 60px;
+
+}
+li.velo :hover{
+    background-color: rgb(235, 226, 226);
+
+}
+li.velo,img{
+    height: 200px;
+    align-items: center;
+
+}
+section.velo{
+    border: 0;
+}
